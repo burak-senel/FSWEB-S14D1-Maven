@@ -11,6 +11,6 @@ public Cuboid(double width,double length,double height){
         return height;
     }
     public double getVolume() {
-        return getArea()*height;
+        return super.getArea()*height;
     }
 }
